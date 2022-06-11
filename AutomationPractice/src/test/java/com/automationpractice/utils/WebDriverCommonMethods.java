@@ -77,7 +77,7 @@ public class WebDriverCommonMethods {
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 
 		} catch (Exception e) {
-
+         System.out.println();
 			e.printStackTrace();
 		}
 
